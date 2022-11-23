@@ -1,0 +1,52 @@
+.grid {
+   
+    width: 306px;
+    height: 306px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    border: solid black 1px;
+}
+
+.mole {
+    background-image: url("bob.jpg");
+    background-size: contain;
+}
+
+body {
+   background-color:seagreen;
+}
+
+h1 {
+    font-family:fantasy;
+    font-size: 48px;
+    text-align:center;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: thin;
+    color:deepskyblue;
+}
+
+h2 {
+    font-family: sans-serif;
+    margin-right: 18px;
+    margin-bottom: 12px;
+    display:inline-block;
+}
+
+p {
+    font-size: 24px;
+    font-family: sans-serif;
+    margin-bottom: 12px;
+    display:inline-block;
+}
+
+button {
+    width: 100px;
+    height: 25px;
+}
